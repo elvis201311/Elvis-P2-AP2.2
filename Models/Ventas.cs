@@ -1,9 +1,11 @@
+using Elvis_P2_AP2_2.DAL;
+using Elvis_P2_AP2_2.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace _2.Models
+namespace Elvis_P2_AP2_2.Models
 {
     public class Ventas
     {

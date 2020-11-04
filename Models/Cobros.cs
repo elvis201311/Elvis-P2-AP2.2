@@ -1,3 +1,6 @@
+
+using Elvis_P2_AP2_2.DAL;
+using Elvis_P2_AP2_2.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
