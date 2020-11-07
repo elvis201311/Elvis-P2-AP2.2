@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Elvis_P2_AP2._2.Data;
+using Blazored.Toast;
 
 namespace Elvis_P2_AP2._2
 {
@@ -27,6 +28,7 @@ namespace Elvis_P2_AP2._2
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            services.AddBlazoredToast();
             services.AddServerSideBlazor();
             services.AddSingleton<WeatherForecastService>();
         }

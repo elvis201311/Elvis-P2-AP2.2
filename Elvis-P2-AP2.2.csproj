@@ -3,9 +3,11 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>Elvis_P2_AP2._2</RootNamespace>
+     <StartWorkingDirectory>$(MSBuildProjectDirectory)</StartWorkingDirectory>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Blazored.Toast" Version="3.1.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.9" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.tools" Version="3.1.9">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>

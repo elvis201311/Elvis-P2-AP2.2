@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Elvis_P2_AP2_2.BLL
 {
-    public class ClientesBLL
+        public class ClientesBLL
     {
         public static List<Clientes> GetList(Expression<Func<Clientes,bool>>cliente)
         {
